@@ -1,4 +1,4 @@
-# Text-Classification-homework-Sep/23
+# Text-Classification-homework-Sep23
 The environment is built by micromamba. Please install micromamba by the command below
 ```
 wget -qO- https://micromamba.snakepit.net/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
