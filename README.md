@@ -1,12 +1,16 @@
 # Text-Classification-autumn-homework-
 The environment is built by micromamba. Please install micromamba by the command below
-> wget -qO- https://micromamba.snakepit.net/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
+```
+wget -qO- https://micromamba.snakepit.net/api/micromamba/linux-64/latest | tar -xvj bin/micromamba
 ./bin/micromamba shell init -s <your_shell> -p ~/micromamba
 source ~/.bashrc
+```
 
 and set the environment with the command below
-> micromamba create -n <env_name> -f textc_env.yml
-> micromamba activate <env_name>
+```
+micromamba create -n <env_name> -f textc_env.yml
+micromamba activate <env_name>
+```
 
 # Result
 accuracy                 |  precision                    |  f1 score
